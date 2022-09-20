@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@types/lodash": "^4.14.184",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "node-ts": "^5.1.2",
+    "path": "^0.12.7",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
+  },
+  "nodemonConfig": {
+    "ignore": ["./src/data/wainwrightsWithCompletedField.json"]
+  }
+}
